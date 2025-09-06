@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Pt-serif;
+    src: url("../src/assets/fonts/PTSerif-Bold.ttf");
+}
+
+
+@import "tailwindcss";
+@theme {
+    --font-pt-serif: 'Pt-serif', serif;
+}
