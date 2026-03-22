@@ -7,13 +7,14 @@ import Contact from './components/Contact';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-
+import { HashRouter } from "react-router-dom";
 
 function App() {
   
 
   return (
     <div>
+      <HashRouter>
       <Navbar />
       
       <section id="home"><Portfolio /></section>
@@ -23,8 +24,10 @@ function App() {
       <section id="skills"><Skills /></section>
       <section id="contact"><Contact /></section>
       <Footer />
+      </HashRouter>
     </div>
   );
 }
+
 
 export default App;

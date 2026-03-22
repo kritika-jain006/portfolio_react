@@ -36,7 +36,7 @@ const Portfolio = () => {
           </h2>
           <div className="flex items-center justify-center">
           <a
-              href="/pdf/RESUME01.pdf"
+              href="/portfolio_react/pdf/Kritika_Jain_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             className=" inline-block mt-10 border border-cyan-400 rounded-full px-6 py-3 shadow-[0_0_20px_#008080] "

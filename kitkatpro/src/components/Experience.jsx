@@ -9,16 +9,14 @@ const Experience = () => {
           Achievements
         </h2>
 
-        {/* Big Box Container */}
         <div className="border border-cyan-900 rounded-lg px-20 py-30 flex space-x-10 shadow-[0_0_20px_#008080]">
-          {/* Certificates Grid */}
+        
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 justify-items-center">
-            {/* Certificate 1 */}
             
 
 
             <a
-              href="/pdf/java_basic.pdf"
+              href="/portfolio_react/pdf/java_basic.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="w-60 h-60 bg-gradient-to-b from-gray-950 to-slate-800 rounded-xl shadow-md flex items-center justify-center hover:scale-105 transition-transform duration-300 text-white text-center p-4"
@@ -33,9 +31,9 @@ const Experience = () => {
               </div>
             </a>
             
-            {/* Certificate 2 */}
+          
             <a
-              href="/pdf/IbmSkill.pdf"
+              href="/portfolio_react/pdf/IbmSkill.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="w-60 h-60 bg-gradient-to-b from-gray-950 to-slate-800 rounded-xl shadow-md flex items-center justify-center hover:scale-105 transition-transform duration-300 text-white text-center p-4"
@@ -50,9 +48,9 @@ const Experience = () => {
               </div>
             </a>
 
-            {/* Certificate 3 */}
+           
             <a
-              href="/pdf/BasicsOfPython.pdf"
+              href="/portfolio_react/pdf/BasicsOfPython.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="w-60 h-60 bg-gradient-to-b from-gray-950 to-slate-800 rounded-xl shadow-md flex items-center justify-center hover:scale-105 transition-transform duration-300 text-white text-center p-4"
@@ -63,7 +61,7 @@ const Experience = () => {
               </div>
             </a>
 
-            {/* Certificate 4 */}
+          
             <a
               href="https://link-to-certificate4.com"
               target="_blank"
@@ -72,7 +70,7 @@ const Experience = () => {
             >
               <div>
                 <h3 className="text-lg font-semibold">Certificate 4</h3>
-                <p className="text-sm mt-2 text-indigo-400">Issued by GHI</p>
+                <p className="text-sm mt-2 text-indigo-400">-</p>
               </div>
             </a>
           </div>

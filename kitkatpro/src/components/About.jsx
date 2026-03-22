@@ -1,6 +1,6 @@
 import React from "react";
 import SpotlightCard from "../components/SpotlightCard";
-import FrontendIcon from "../assets/images/frontend.png";
+
 
 
 const About = () => {
@@ -24,7 +24,7 @@ const About = () => {
   <div className="max-w-xs w-full sm:w-[18%] h-80 flex items-center justify-center">
   <SpotlightCard
     className="custom-spotlight-card w-full h-full flex items-center justify-center"
-    spotlightColor="rgba(255, 0, 255, 0.5)"
+    spotlightColor="rgba(255, 0, 255, 0.25)"
   >
     <span className="text-center text-cyan-200 text-lg font-serif">
       Frontend <br/><div className="text-2xl">Developer</div>
