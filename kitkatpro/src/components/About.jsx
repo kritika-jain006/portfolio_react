@@ -5,13 +5,13 @@ import SpotlightCard from "../components/SpotlightCard";
 
 const About = () => {
   return (
-    <div className="relative min-h-screen bg-black">
-      <h1 className="text-gray-500 font-medium text-2xl px-50">INTRODUCTION</h1>
-      <h2 className="text-cyan-400 font-extrabold text-7xl px-45 py-2">
+    <div className="relative min-h-screen bg-black max-md:px-4 max-md:py-6">
+      <h1 className="text-gray-500 font-medium text-2xl px-50 max-md:px-4 max-md:text-xl">INTRODUCTION</h1>
+      <h2 className="text-cyan-400 font-extrabold text-7xl px-45 py-2 max-md:px-4 max-md:text-5xl max-sm:text-4xl">
         Overview
       </h2>
 
-      <p className="text-gray-500 px-48 py-2 text-2xl font-medium">
+      <p className="text-gray-500 px-48 py-2 text-2xl font-medium max-md:px-4 max-md:text-lg">
         A passionate Computer Science student at GLA University.
         <br />
         I’m currently exploring the world of web development and data <br />
@@ -20,8 +20,8 @@ const About = () => {
         and solving real-world problems through code. Always curious, always
         growing.
       </p>
-<div className="flex flex-wrap justify-center gap-20 p-20">
-  <div className="max-w-xs w-full sm:w-[18%] h-80 flex items-center justify-center">
+<div className="flex flex-wrap justify-center gap-20 p-20 max-md:gap-8 max-md:p-6">
+  <div className="max-w-xs w-full sm:w-[18%] h-80 flex items-center justify-center max-md:w-[46%] max-sm:w-full">
   <SpotlightCard
     className="custom-spotlight-card w-full h-full flex items-center justify-center"
     spotlightColor="rgba(255, 0, 255, 0.25)"
@@ -32,7 +32,7 @@ const About = () => {
   </SpotlightCard>
 </div>
 
-<div className="max-w-xs w-full sm:w-[18%] h-80 flex items-center justify-center">
+<div className="max-w-xs w-full sm:w-[18%] h-80 flex items-center justify-center max-md:w-[46%] max-sm:w-full">
   <SpotlightCard
     className="custom-spotlight-card w-full h-full flex items-center justify-center"
     spotlightColor="rgba(255, 0, 255, 0.25)"
@@ -44,7 +44,7 @@ const About = () => {
 </div>
 
 
-  <div className="max-w-xs w-full sm:w-[18%] h-80 flex items-center justify-center">
+  <div className="max-w-xs w-full sm:w-[18%] h-80 flex items-center justify-center max-md:w-[46%] max-sm:w-full">
   <SpotlightCard
     className="custom-spotlight-card w-full h-full flex items-center justify-center"
     spotlightColor="rgba(255, 0, 255, 0.25)"
@@ -55,7 +55,7 @@ const About = () => {
   </SpotlightCard>
 </div>
 
-  <div className="max-w-xs w-full sm:w-[18%] h-80 flex items-center justify-center">
+  <div className="max-w-xs w-full sm:w-[18%] h-80 flex items-center justify-center max-md:w-[46%] max-sm:w-full">
   <SpotlightCard
     className="custom-spotlight-card w-full h-full flex items-center justify-center"
     spotlightColor="rgba(255, 0, 255, 0.25)"

@@ -46,12 +46,12 @@ const Contact = () => {
 
   return (
     <>
-      <div className="flex justify-between items-start p-6  min-h-screen bg-gradient-to-br from-black to-slate-800">
-        <div className="w-1/2 ">
-          <div className="min-h-screen  flex items-center justify-center px-4 py-12">
+      <div className="flex justify-between items-start p-6  min-h-screen bg-gradient-to-br from-black to-slate-800 max-md:flex-col max-md:p-4">
+        <div className="w-1/2 max-md:w-full">
+          <div className="min-h-screen  flex items-center justify-center px-4 py-12 max-md:min-h-0 max-md:py-8">
             <div className="bg-slate-600/10 backdrop-blur-md rounded-2xl shadow-2xl p-8 w-full max-w-xl border border-white/10">
               <h2 className="text-xl font-sans text-white mb-6 ">GET IN TOUCH</h2>
-              <h3 className="text-6xl font-extrabold text-slate-400 mb-2">Contact</h3>
+              <h3 className="text-6xl font-extrabold text-slate-400 mb-2 max-md:text-4xl">Contact</h3>
               <br />
               <br />
               <form onSubmit={handleSubmit} className="space-y-6 text-white">
@@ -110,8 +110,8 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="w-1/2 py-20">
-          <div style={{ width: '100%', height: '600px', position: 'relative' }}>
+        <div className="w-1/2 py-20 max-md:w-full max-md:py-8">
+          <div className="relative w-full h-[600px] max-md:h-[460px] max-sm:h-[360px]">
             <Orb
               hoverIntensity={1.75}
               rotateOnHover={true}

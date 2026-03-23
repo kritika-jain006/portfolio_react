@@ -4,14 +4,14 @@ import TiltedCard from '../components/TiltedCard';
 
 const Skills = () => {
   return (
-    <div className='min-h-screen bg-gradient-to-b from-black via-slate-900 to-black h-screen w-full'>
-      <h1 className='text-gray-500 font-medium flex flex-col items-center justify-center text-center text-2xl'>WHAT I USE TO BUILD</h1>
+    <div className='min-h-screen bg-gradient-to-b from-black via-slate-900 to-black h-screen w-full max-md:h-auto max-md:pb-10'>
+      <h1 className='text-gray-500 font-medium flex flex-col items-center justify-center text-center text-2xl max-md:text-xl'>WHAT I USE TO BUILD</h1>
       <br/>
-      <h2 className='text-gray-500 font-extrabold flex flex-col items-center justify-center text-center text-5xl'> TECHNOLOGIES</h2>
+      <h2 className='text-gray-500 font-extrabold flex flex-col items-center justify-center text-center text-5xl max-md:text-3xl'> TECHNOLOGIES</h2>
   
-<div className='px-40 pt-10'>
+<div className='px-40 pt-10 max-md:px-4'>
   
-<div className='flex flex-row px-75'>
+<div className='flex flex-row px-75 max-md:flex-wrap max-md:justify-center max-md:px-0 max-md:gap-4'>
 <TiltedCard
   containerHeight="200px"
   containerWidth="250px"
@@ -76,7 +76,7 @@ const Skills = () => {
   }
 />
 </div>
-<div className='flex flex-row px-45'>
+<div className='flex flex-row px-45 max-md:flex-wrap max-md:justify-center max-md:px-0 max-md:gap-4'>
   <TiltedCard
   containerHeight="200px"
   containerWidth="250px"

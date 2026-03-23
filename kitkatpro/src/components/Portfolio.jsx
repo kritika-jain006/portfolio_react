@@ -1,10 +1,10 @@
 import React from "react";
-import resume from "../assets/resume3.pdf";
+import resume from "../assets/Kritika_jain_resume.pdf";
 import Particles from "../components/Particles";
 
 const Portfolio = () => {
   return (
-    <div className="relative w-full h-screen text-white overflow-hidden">
+    <div className="relative w-full h-screen text-white overflow-hidden max-md:min-h-screen">
       
       {/* Particle background */}
       <div className="absolute inset-0 -z-10">
@@ -21,14 +21,14 @@ const Portfolio = () => {
       </div>
 
       {/* Portfolio content */}
-      <div className="p-20 flex flex-col items-center justify-center text-center ">
-        <div className="text-left space-y-6">
-          <h1 className="font-pt-serif text-6xl">
+      <div className="p-20 flex flex-col items-center justify-center text-center max-md:px-6 max-md:py-14">
+        <div className="text-left space-y-6 max-md:text-center">
+          <h1 className="font-pt-serif text-6xl max-md:text-4xl max-sm:text-3xl">
             Hi, I'm Kritika Jain
           </h1>
           <h2>
             <span
-              className=" font-pt-serif text-5xl text-cyan-400 flex items-center justify-center"  
+              className=" font-pt-serif text-5xl text-cyan-400 flex items-center justify-center max-md:text-3xl max-sm:text-2xl"  
               style={{ textShadow: "0 0 20px #008080" }}
             >
               Web Developer
@@ -36,10 +36,10 @@ const Portfolio = () => {
           </h2>
           <div className="flex items-center justify-center">
           <a
-              href="/portfolio_react/pdf/Kritika_Jain_Resume.pdf"
+              href={resume}
               target="_blank"
               rel="noopener noreferrer"
-            className=" inline-block mt-10 border border-cyan-400 rounded-full px-6 py-3 shadow-[0_0_20px_#008080] "
+            className=" inline-block mt-10 border border-cyan-400 rounded-full px-6 py-3 shadow-[0_0_20px_#008080] max-md:mt-6 max-md:px-5 max-md:py-2.5"
           >
             RESUME
           </a>
